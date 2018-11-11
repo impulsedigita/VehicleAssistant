@@ -1,0 +1,26 @@
+def supportVersion = "28.0.0"
+def supportRecycler = "28.0.0"
+def supportConstraintLayout = "1.1.3"
+def supportJunitTest = "4.12"
+def supportEspresso = "3.0.2"
+def supportTestRun = "1.0.2"
+
+ext{
+    android = [
+            applicationId : "com.impulsedigita.vehicleassistant",
+            minSdkVersion : 15,
+            targetSdkVersion : 28,
+            versionCode : 1,
+            versionName : "1.0",
+            compileSdkVersion : 28
+    ]
+
+    supportAppcompatV7 = "com.android.support:appcompat-v7:${supportVersion}"
+    supportDesign = "com.android.support:design:${supportVersion}"
+    supportConstraint = "com.android.support.constraint:constraint-layout:${supportConstraintLayout}"
+    supportVectorDrawable = "com.android.support:support-vector-drawable:${supportVersion}"
+    supportRecyclerView = "com.android.support:recyclerview-v7:${supportRecycler}"
+    supportJunit = "junit:junit:${supportJunitTest}"
+    supportTestRunner = "com.android.support.test:runner:${supportTestRun}"
+    supportEspressoTest = "com.android.support.test.espresso:espresso-core:${supportEspresso}"
+}

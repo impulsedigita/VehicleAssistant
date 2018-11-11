@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VehicleAssistant</string>
+    <string name="title_home">Home</string>
+    <string name="title_statistic">Stat</string>
+    <string name="title_timeline">Line</string>
+    <string name="title_we">We</string>
+</resources>
