@@ -4,6 +4,14 @@
     <color name="colorPrimaryDark">#573900</color>
     <color name="colorAccent">#D81B60</color>
 
+    <color name="line_grey">#FFEDEDED</color>
+
+    <!--theme color-->
+    <color name="theme_color_1">#D81B60</color>
+    <color name="theme_color_2">#1bd828</color>
+    <color name="theme_color_3">#1b93d8</color>
+    <color name="theme_color_4">#d8af1b</color>
+
     <!--   color of navigation icons and text  -->
     <color name="colorNavIcon">#dae9f6</color>
     <color name="colorNavText">#01294b</color>
